@@ -24,7 +24,7 @@ export const App = () => {
           </a>
         </Plate>
         <Plate className="flex h-full min-h-48 w-full items-center justify-center bg-[#316FEA] p-5">
-          <a href="https://t.me/@feaxh">
+          <a href="https://t.me/feaxh">
             <img src="icons/telegram.svg" alt="telegram" />
           </a>
         </Plate>
