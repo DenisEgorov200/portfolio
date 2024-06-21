@@ -2,9 +2,9 @@ import { Plate } from '@shared/ui/plate'
 
 export const App = () => {
   return (
-    <div className="flex h-dvh w-dvw justify-center py-20">
-      <div className="max-width-[1200px] mx-auto grid grid-cols-3 place-content-start gap-10">
-        <Plate className="col-span-2 flex justify-between p-5">
+    <div className="flex h-dvh w-dvw justify-center py-20 max-lg:py-5">
+      <div className="max-width-[1200px] mx-auto grid grid-cols-3 place-content-start gap-10 px-5 max-lg:grid-cols-2 max-lg:gap-4">
+        <Plate className="col-span-2 flex justify-between p-5 max-lg:flex-col max-lg:items-end">
           <div>
             <h1 className="mb-2 text-3xl font-bold">About</h1>
             <p className="max-w-96 text-xl">
