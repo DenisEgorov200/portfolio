@@ -1,8 +1,10 @@
+import { Plate } from '@shared/ui/plate'
+
 export const App = () => {
   return (
     <div className="flex h-dvh w-dvw justify-center py-20">
       <div className="max-width-[1200px] mx-auto grid grid-cols-3 place-content-start gap-10">
-        <div className="col-span-2 flex justify-between rounded-md border border-gray-100 p-5">
+        <Plate className="col-span-2 flex justify-between rounded-md border border-gray-100 p-5">
           <div>
             <h1 className="mb-2 text-3xl font-bold">About</h1>
             <p className="max-w-96 text-xl">
@@ -15,7 +17,7 @@ export const App = () => {
           <div className="flex h-20 w-20 items-center justify-center overflow-hidden border border-gray-100 p-2">
             <img src="images/avatar.jpg" alt="avatar" />
           </div>
-        </div>
+        </Plate>
         <a
           href="https://github.com/DenisEgorov200"
           className="flex h-full w-full items-center justify-center rounded-md bg-black p-5"
