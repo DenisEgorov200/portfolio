@@ -30,7 +30,7 @@ export const App = () => {
         </Plate>
         <Plate className="col-span-2 h-full max-h-48 w-full rounded-md border border-gray-100 p-5">
           <h2 className="mb-2 text-lg font-medium">Projects</h2>
-          <ul className="flex h-[80%] flex-col gap-2 overflow-scroll py-2">
+          <ul className="flex h-[80%] flex-col gap-2 overflow-y-auto py-2">
             <li className="flex items-center gap-2 border border-gray-100 p-5">
               <h3 className="font-medium">KODE</h3>
               <img src="icons/kode-logo.svg" alt="kode-logo" />
